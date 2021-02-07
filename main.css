@@ -41,7 +41,7 @@ body{
     font-size: 1.25em;
     font-family: AXIS, Arial, Helvetica, sans-serif;
     width: 65vw;
-    height: 9vh;
+    height: 10vh;
     padding-top: 0.5vh;
     padding-right: 2vw;
     padding-left: 2vw;
@@ -57,7 +57,7 @@ body{
     border-style: solid;
     border-color: #086972;
     width: 50vw;
-    height: 15vh;
+    height: 30vh;
     border-width: 2.5px;
     border-radius: 15px;
     padding-top: 0.5vh;
