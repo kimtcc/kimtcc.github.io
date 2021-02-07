@@ -1,0 +1,107 @@
+/*
+font-family: 'Pacifico', cursive;
+Verde escuro : #086972
+Verde +- : (background) #497B79
++Branco
+*/
+
+@font-face{
+    font-family: 'AXIS';
+    src: url(/ae.otf)
+}
+
+body{
+    color: white;
+    background-color: #7EB0AE;
+}
+
+.welcome{
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.kim{
+    font-family: 'Pacifico', cursive;
+    font-size: 4em;
+}
+
+.texto{
+    font-family: AXIS, Arial, Helvetica, sans-serif;
+}
+
+.center{
+    text-align: center;
+}
+
+.botao{
+    color: white;
+    background-color: #086972;
+    border-style: none;
+    border-radius: 25px;
+    font-size: 1.25em;
+    font-family: AXIS, Arial, Helvetica, sans-serif;
+    width: 65vw;
+    height: 5vh;
+    padding-top: 0.5vh;
+    padding-right: 2vw;
+    padding-left: 2vw;
+    padding-bottom: 0.5vh;
+    cursor: pointer;
+}
+
+.small{
+    font-size: 1.25em;
+}
+
+.input{
+    border-style: solid;
+    border-color: #086972;
+    width: 50vw;
+    height: 3vh;
+    border-width: 2.5px;
+    border-radius: 15px;
+    padding-top: 0.5vh;
+    padding-right: 2vw;
+    padding-left: 2vw;
+    padding-bottom: 0.5vh;
+}
+
+.textarea{
+    resize: none;
+    border-color: #086972;
+    border-width: 2.5px;
+    border-radius: 5px;
+    padding-top: 0.5vh;
+    padding-right: 1vw;
+    padding-left: 1vw;
+    padding-bottom: 0.5vh;
+    width: 75vw;
+    height: 20vh;
+}
+
+@media (min-width: 768px){
+    .botao{
+        width: 25vw;
+        height: 7.5vh;
+    }
+    .input{
+        width: 25vw;
+        height: 5vh;
+    }
+    .textarea{
+        width: 40vw;
+    }
+
+}
+
+@media (min-width: 1367px){
+    .botao{
+        width: 20vw;
+        height: 5vh;
+    }
+    .input{
+        width: 20vw;
+        height: 3.5vh;
+    }
+
+}
